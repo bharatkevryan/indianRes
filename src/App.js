@@ -17,7 +17,7 @@ function App() {
       
       <Router>
         <Switch>
-        <Route path = "/" exact component={Home} />
+        <Route path = "https://bharatkevryan.github.io/IndianCuisine/" exact component={Home} />
         <Route path = "/menu" exact component={MenuTitles} />
         <Route path="/singlemenu/:id" exact component={MenuSingleTile} />
         </Switch>
