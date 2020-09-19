@@ -1,0 +1,342 @@
+.container{
+	background-color: black;
+	color: black;
+	width: 100%;
+}
+body{
+	background-color: black;
+}
+
+.nounderline{
+  text-decoration: none !important
+}
+
+.navbar-header{
+	clear: both;
+}
+span{
+	border: 1px solid white;
+}
+
+.navbar-header .navbar-toggle{
+	border: 2px solid white;
+}
+
+#current{
+	background-color: silver;
+	color: black;
+}
+
+#logo-img {
+  background: url('../images/brand1.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 20px 15px 5px 0;
+}
+
+.navbar-brand{
+	font-family: fantasy;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 0;
+	line-height: 0.75;
+}
+.navbar-brand h1{
+	color: white;
+	position: relative;
+	top: 0;
+	bottom: 30px;
+}
+.navbar-nav span{
+	border: none;
+	color: grey;
+}
+
+.navbar-nav a{
+	color: silver;
+	margin-top: 20px;
+}
+.navbar-nav>li>a:hover{
+	color: black;
+	background-color: silver;
+}
+button{
+	position: relative;
+	top: 30px;
+}
+
+
+#phone div{
+	color: white;
+	text-align: center;
+
+}
+.navbar-nav>li>a {
+   
+    text-align: center;
+}
+.container .jumbotron {
+  
+  border: none;
+  padding: 0;
+  margin-top: 30px;
+
+}
+.thumbnail:hover{
+	opacity: 0.7;
+	cursor: pointer;
+	color: white;
+}
+#jumbo{
+	background-color: #3c0201;
+	border-radius: 5%;
+}
+
+#menu{
+	padding-top: 20px;
+}
+
+.panel-footer {
+  margin-top: 50px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #3c0201;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#hours, #address {
+  line-height: 2;
+}
+#hours > span, #address > span {
+  font-size: 1.3em;
+  border:none;
+}
+#address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+
+.row section{
+	color: white;
+	margin-top: 40px;
+}
+
+.text-center{
+	color: white;
+	background-color: #3c0201;
+	padding-bottom: 5px;
+	padding-top: 15px;
+	width: 50%;
+	margin: 30px auto 50px;
+	border-top-right-radius: 30%;
+	border-bottom-left-radius: 30%; 
+}
+
+.text-center>h3{
+	margin-bottom: 30px;
+	font-family: 'Anton', sans-serif;
+	font-weight: bolder;
+	font-size: 3vw;
+	color: white;
+}
+
+#menucat h3{
+	text-align: center;
+
+}
+
+#menucat{
+	width: 80%
+}
+
+#menucat img{
+	min-width: 120px;
+}
+
+.thumbnail a{
+	color: white;
+	text-decoration: none;
+}
+
+#single-menu{
+	color: white;
+}
+
+.menu-item-photo {
+  position: relative;
+  border: 2px solid #3F0C1F; 
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 10px;
+  max-width: 250px;
+}
+
+.menu-item-photo>div{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: #3D72A4;
+	padding: 5px 10px;
+	border-radius: 50%;
+}
+
+.menu-item-details{
+	font-style: italic;
+}
+
+.menu-item-price{
+	text-align: right;
+}
+
+.menu-item-price span{
+	border:none;
+	font-size: 0.8em;
+}
+.menu-item-price{
+	font-size: 12px;
+	
+}
+.menu-item-tile{
+	margin-top: 80px;
+}
+
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    background: url('../images/rest1200.jpg') no-repeat;
+    height: 675px;
+    
+    background-size: cover; 
+    
+  }
+  .container{
+  	padding-right: 50px;
+  	padding-left: 50px;
+
+  }
+}
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    background: url('../images/rest1200.jpg') no-repeat;
+    height: 675px;
+    
+    background-size: cover; 
+    
+  }
+  .container{
+  	padding-right: 50px;
+  	padding-left: 50px;
+
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+	  .container .jumbotron {
+    background: url('../images/rest992.jpg') no-repeat;
+    height: 558px;
+    
+    background-size: cover; 
+    
+  }
+  .container{
+  	padding-right: 50px;
+  	padding-left: 50px;
+
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  .container .jumbotron {
+    background: url('C:/react/indian-cuisine/cuisine/src/style/images/rest768.jpg') no-repeat;
+    background-size: cover;
+    height: 432px;
+  }
+  /* End Home Page */
+
+}
+.row .thumbnail{
+	padding-right: 50px;
+    padding-left: 50px;
+    border: none;
+    background-color: black;
+}
+
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 0;
+    padding-bottom: 20px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  .jumbotron img{
+  	margin:0;
+  	padding: 0;
+  }
+
+  .menu-item-photo {
+    margin-right: auto;
+  }
+  .menu-item-tile{
+  	margin-bottom: 50px;
+  }
+  .menu-item-tile .menu-item-price {
+    text-align: center;
+  }
+  .menu-item-details {
+    text-align: center;
+  }
+  .menu-item-title{
+  	text-align: center;
+  }
+  hr{
+  	width: 70%;
+  }
+  .panel-footer{
+  	text-align: center;
+  }
+}
+
