@@ -17,7 +17,7 @@ function App() {
       
       <Router>
         <Switch>
-        <Route path = "https://bharatkevryan.github.io/IndianCuisine/" exact component={Home} />
+        <Route path = {process.env.PUBLIC_URL + '/'} exact component={Home} />
         <Route path = "/menu" exact component={MenuTitles} />
         <Route path="/singlemenu/:id" exact component={MenuSingleTile} />
         </Switch>
