@@ -18,8 +18,8 @@ function App() {
       <Router>
         <Switch>
         <Route path = {process.env.PUBLIC_URL + '/'} exact component={Home} />
-        <Route path = "/menu" exact component={MenuTitles} />
-        <Route path="/singlemenu/:id" exact component={MenuSingleTile} />
+        <Route path = {process.env.PUBLIC_URL + 'menu'} exact component={MenuTitles} />
+        <Route path={process.env.PUBLIC_URL + '/singlemenu/:id'} exact component={MenuSingleTile} />
         </Switch>
       </Router>
       
