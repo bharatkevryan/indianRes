@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/indianRes/static/css/main.1433f2f7.chunk.css",
+    "main.js": "/indianRes/static/js/main.7ef6a588.chunk.js",
+    "main.js.map": "/indianRes/static/js/main.7ef6a588.chunk.js.map",
+    "runtime-main.js": "/indianRes/static/js/runtime-main.364ec7cb.js",
+    "runtime-main.js.map": "/indianRes/static/js/runtime-main.364ec7cb.js.map",
+    "static/js/2.6f4d11a0.chunk.js": "/indianRes/static/js/2.6f4d11a0.chunk.js",
+    "static/js/2.6f4d11a0.chunk.js.map": "/indianRes/static/js/2.6f4d11a0.chunk.js.map",
+    "index.html": "/indianRes/index.html",
+    "precache-manifest.cd17182b71f19c85a1ac7255681c0656.js": "/indianRes/precache-manifest.cd17182b71f19c85a1ac7255681c0656.js",
+    "service-worker.js": "/indianRes/service-worker.js",
+    "static/css/main.1433f2f7.chunk.css.map": "/indianRes/static/css/main.1433f2f7.chunk.css.map",
+    "static/js/2.6f4d11a0.chunk.js.LICENSE.txt": "/indianRes/static/js/2.6f4d11a0.chunk.js.LICENSE.txt",
+    "static/media/food.png": "/indianRes/static/media/food.3aa3603b.png",
+    "static/media/bootstrap.css": "/indianRes/static/media/glyphicons-halflings-regular.fa277232.woff",
+    "static/media/logo.svg": "/indianRes/static/media/logo.5d5d9eef.svg",
+    "static/media/menu.png": "/indianRes/static/media/menu.4ccf6b44.png",
+    "static/media/style.css": "/indianRes/static/media/rest992.12ceca8b.jpg",
+    "static/media/rest768.jpg": "/indianRes/static/media/rest768.50593522.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.364ec7cb.js",
+    "static/js/2.6f4d11a0.chunk.js",
+    "static/css/main.1433f2f7.chunk.css",
+    "static/js/main.7ef6a588.chunk.js"
+  ]
+}
