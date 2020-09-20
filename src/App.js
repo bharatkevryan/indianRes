@@ -11,14 +11,12 @@ import MenuSingleTile from './components/MenuSingleTile'
 function App() {
   return (
     <div className="App">
-      <Router>
-      <Nav/>
-      </Router>
       
       <Router>
+        <Nav/>
         <Switch>
         <Route path = {process.env.PUBLIC_URL + '/'} exact component={Home} />
-        <Route path = {process.env.PUBLIC_URL + 'menu'} exact component={MenuTitles} />
+        <Route path = {process.env.PUBLIC_URL + '/menu'} exact component={MenuTitles} />
         <Route path={process.env.PUBLIC_URL + '/singlemenu/:id'} exact component={MenuSingleTile} />
         </Switch>
       </Router>

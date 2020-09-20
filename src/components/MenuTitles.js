@@ -43,14 +43,14 @@ function MenuTitles() {
 
           <div key={item.id}className="col-sm-6 col-md-3 col-xs-12">
           <div className="thumbnail">
-                  <Link to={`/singlemenu/${item.id}`} ><img src={Menu} alt="..." />
+                  <Link to={process.env.PUBLIC_URL + `/singlemenu/${item.id}`} ><img src={Menu} alt="..." />
               <div className="caption">
       <h3>{item.type}</h3>
               </div>
               </Link>
                           
                           
-                    
+              
                   
               </div>
         </div>

@@ -10,9 +10,9 @@ function nav() {
             <div className="container">
     
     <div className="navbar-header">
-      <a href="/" className="pull-left visible-md visible-lg visible-sm">
+      <Link to={process.env.PUBLIC_URL + '/'} className="pull-left visible-md visible-lg visible-sm">
             <div id="logo-img"></div>
-        </a>    <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        </Link>    <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span className="sr-only">Toggle navigation</span>
         <span className="icon-bar"></span>
         <span className="icon-bar"></span>
@@ -20,7 +20,7 @@ function nav() {
       </button>
         
       <div className="navbar-brand">
-        <a href="/" className="nounderline"><h1>INDIAN CUISINE</h1></a>
+        <Link to={process.env.PUBLIC_URL + '/'} className="nounderline"><h1>INDIAN CUISINE</h1></Link>
       </div>
     </div>
 
@@ -28,16 +28,16 @@ function nav() {
     <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul id="nav-list" className="nav navbar-nav navbar-right">
          <li>
-              <a href="/menu">
-                <span className="glyphicon glyphicon-cutlery"></span><br className="hidden-xs"/> Menu</a>
+              <Link to={process.env.PUBLIC_URL + '/menu'}>
+                <span className="glyphicon glyphicon-cutlery"></span><br className="hidden-xs"/> Menu</Link>
             </li>
             <li>
-              <a href="/#">
-                <span className="glyphicon glyphicon-info-sign"></span><br className="hidden-xs"/> About</a>
+              <Link to="/#">
+                <span className="glyphicon glyphicon-info-sign"></span><br className="hidden-xs"/> About</Link>
             </li>
             <li>
-            <a href="/singlemenu/5">
-                <span className="glyphicon glyphicon-certificate"></span><br className="hidden-xs"/> Specials</a>
+            <Link to={process.env.PUBLIC_URL + '/singlemenu/5'}>
+                <span className="glyphicon glyphicon-certificate"></span><br className="hidden-xs"/> Specials</Link>
             </li>
             <li id="phone" className="hidden-xs">
               <a href="tel:8586936167">

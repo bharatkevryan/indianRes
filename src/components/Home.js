@@ -23,7 +23,7 @@ function Home() {
     <div className="row">
   <div className="col-sm-6 col-md-4 col-xs-12">
     <div className="thumbnail">
-      <Link to="/menu">
+      <Link to={process.env.PUBLIC_URL + '/menu'}>
       <img src={Logo} alt="..." />
       <div className="caption">
         <h3>MENU</h3>
